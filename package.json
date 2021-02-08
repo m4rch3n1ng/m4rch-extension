@@ -1,0 +1,29 @@
+{
+    "name": "m4rch",
+    "displayName": "m4rch",
+    "description": "a small extension to make my life a bit easier",
+    "version": "0.1.0",
+	"publisher": "m4rch",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m4rch3n1ng/m4rch-extension"
+	},
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "plaintext",
+                "path": "./snippets/plaintext.json"
+            },
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			}
+        ]
+    }
+}

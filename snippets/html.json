@@ -1,0 +1,60 @@
+{
+	"html": {
+		"prefix": "m4!html",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			"",
+			"\t<title>${1:title}</title>",
+			"",
+			"\t<meta name=\"HandheldFriendly\" content=\"true\">",
+			"\t<meta name=\"MobileOptimized\" content=\"20\">",
+			"",
+			"\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+			"",
+			"\t<link rel=\"stylesheet\" href=\"index.css\">",
+			"",
+			"\t<script src=\"index.js\"></script>",
+			"",
+			"</head>",
+			"<body>",
+			"\t$0",
+			"</body>",
+			"</html>",
+			""
+		],
+		"description": "initiates a html template with jquery and a bunch of metatags already added"
+	},
+	"html:hljs": {
+		"prefix": "m4!html:hljs",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			"",
+			"\t<title>${1:title}</title>",
+			"",
+			"\t<meta name=\"HandheldFriendly\" content=\"true\">",
+			"\t<meta name=\"MobileOptimized\" content=\"20\">",
+			"",
+			"\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/solarized-light.min.css\">",
+			"",
+			"\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+			"\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js\"></script>",
+			"\t<script>hljs.initHighlightingOnLoad()</script>",
+			"",
+			"\t<link rel=\"stylesheet\" href=\"index.css\">",
+			"",
+			"\t<script src=\"index.js\"></script>",
+			"",
+			"</head>",
+			"<body>",
+			"\t$0",
+			"</body>",
+			"</html>",
+			""
+		],
+		"description": "initiates a html template with jquery, hljs and a bunch of metatags already added"
+	}
+}
