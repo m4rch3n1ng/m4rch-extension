@@ -2,6 +2,15 @@
 
 all notable changes to the "m4rch" extension will be documented in this file.
 
+## 0.1.1
+
+### modified
+
+- **m4!html**
+  - changed jquery link to a custom version
+- **m4!html:hljs**
+  - changed jquery link to a custom version
+
 ## 0.1.0
 
 - Initial release
