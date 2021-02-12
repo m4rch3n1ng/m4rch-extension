@@ -1,29 +1,50 @@
 {
-    "name": "m4rch",
-    "displayName": "m4rch",
-    "description": "a small extension to make my life a bit easier",
-    "version": "0.1.1",
+	"name": "m4rch",
+	"displayName": "m4rch",
+	"description": "a small extension to make my life a bit easier",
+	"version": "0.2.0",
 	"publisher": "m4rch",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/m4rch3n1ng/m4rch-extension"
 	},
-    "engines": {
-        "vscode": "^1.53.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "plaintext",
-                "path": "./snippets/plaintext.json"
-            },
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:m4rch.tsconfig"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "m4rch.tsconfig",
+				"title": "m4!tsconfig",
+				"description": "insert custom tsconfig configuration"
+			}
+		],
+		"snippets": [
+			{
+				"language": "plaintext",
+				"path": "./snippets/plaintext.json"
+			},
 			{
 				"language": "html",
 				"path": "./snippets/html.json"
 			}
-        ]
-    }
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./"
+	},
+	"dependencies": {
+		"@types/node": "^14.14.27",
+		"@types/vscode": "^1.53.0"
+	}
 }

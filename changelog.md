@@ -1,10 +1,21 @@
 # changelog
 
-all notable changes to the "m4rch" extension will be documented in this file.
+all notable changes to the "m4rch" extension will be documented in this file
+
+## 0.2.0
+
+### added
+
+#### command
+
+- **\> m4!tsconfig**
+  - inserts a custom tsconfig json-object into file
 
 ## 0.1.1
 
 ### modified
+
+#### snippets
 
 - **m4!html**
   - changed jquery link to a custom version
@@ -16,6 +27,8 @@ all notable changes to the "m4rch" extension will be documented in this file.
 - Initial release
 
 ### added
+
+#### snippets
 
 - **m4!unlicense**
 	- initiate a "the unlicense" license

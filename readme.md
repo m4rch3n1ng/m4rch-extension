@@ -22,9 +22,29 @@ snippets so i dont always have to copy stuff from somewhere else
 - **m4!html:hljs**
   - initiates an html template with jquery, hljs and a bunch of metatags already added
 
+## Commands
+
+### insert
+
+- **\> m4!tsconfig**
+  - insert custom tsconfig json-object into file
+
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
+
+### v0.2.0
+
+#### added
+
+- \> 
+
+### v0.1.1
+
+#### modified
+
+- m4!html
+- m4!html:hljs
 
 ### v0.1.0
 
