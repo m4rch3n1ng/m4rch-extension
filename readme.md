@@ -33,11 +33,17 @@ snippets so i dont always have to copy stuff from somewhere else
 
 Users appreciate release notes as you update your extension.
 
+### v0.2.1
+
+#### modified
+
+- \> m4!tsconfig
+
 ### v0.2.0
 
 #### added
 
-- \> 
+- \> m4!tsconfig
 
 ### v0.1.1
 

@@ -1,8 +1,8 @@
 {
 	"tsconfig": [
 		"{",
-		"\t\t",
 		"\t\"compilerOptions\": {",
+		"\t\t",
 		"\t\t/* - basic options - */",
 		"\t\t// \"incremental\": true,",
 		"\t\t\"target\": \"esnext\",",

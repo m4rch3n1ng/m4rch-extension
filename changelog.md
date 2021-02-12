@@ -2,6 +2,15 @@
 
 all notable changes to the "m4rch" extension will be documented in this file
 
+## 0.2.1
+
+### modified
+
+#### commands
+
+- **\> m4!tsconfig**
+  - adjusted comments, structure and renewed .vsix file
+
 ## 0.2.0
 
 ### added
