@@ -2,6 +2,23 @@
 
 all notable changes to the "m4rch" extension will be documented in this file
 
+## 0.2.2
+
+### modified
+
+#### commands
+
+- **\> m4!tsconfig**
+  - removed ./ from outDir and rootDir
+
+#### snippets
+
+- **m4!html**
+  - added 2 html meta tags
+
+- **m4!html:hljs**
+  - added 2 html meta tags
+
 ## 0.2.1
 
 ### modified

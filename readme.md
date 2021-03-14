@@ -31,33 +31,4 @@ snippets so i dont always have to copy stuff from somewhere else
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### v0.2.1
-
-#### modified
-
-- \> m4!tsconfig
-
-### v0.2.0
-
-#### added
-
-- \> m4!tsconfig
-
-### v0.1.1
-
-#### modified
-
-- m4!html
-- m4!html:hljs
-
-### v0.1.0
-
-#### added
-
-- m4!unlicense
-- m4!mit
-- m4!isc
-- m4!html
-- m4!html:hljs
+see the full changelog [here](./changelog.md)
